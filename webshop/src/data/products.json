@@ -1,0 +1,116 @@
+[
+  {
+    "id": 122321,
+    "image": "https://example.com/med-device1.jpg",
+    "name": "Vererõhu monitor",
+    "price": 89.99,
+    "description": "See vererõhu monitor võimaldab mõõta täpselt vererõhku kodus. Mugav ja lihtne kasutada.",
+    "category": "Vererõhu monitorid",
+    "active": false
+  },
+  {
+    "id": 122322,
+    "image": "https://example.com/med-device2.jpg",
+    "name": "Termomeeter",
+    "price": 19.99,
+    "description": "Digitaalne termomeeter kiireks ja täpseks kehatemperatuuri mõõtmiseks.",
+    "category": "Termomeetrid",
+    "active": true
+  },
+  {
+    "id": 122323,
+    "image": "https://example.com/med-device3.jpg",
+    "name": "EKG seade",
+    "price": 199.99,
+    "description": "Elektrokardiogrammi (EKG) seade südame aktiivsuse jälgimiseks ja analüüsimiseks.",
+    "category": "EKG seadmed",
+    "active": true
+  },
+  {
+    "id": 122324,
+    "image": "https://example.com/med-device4.jpg",
+    "name": "Inhalaator",
+    "price": 49.99,
+    "description": "Kompressor-inhalaator hingamisteede haiguste raviks ja leevendamiseks.",
+    "category": "Inhalaatorid",
+    "active": true
+  },
+  {
+    "id": 122325,
+    "image": "https://example.com/med-device5.jpg",
+    "name": "Veresuhkru mõõtja",
+    "price": 59.99,
+    "description": "Veresuhkru mõõtja diabeetikutele veresuhkru taseme jälgimiseks.",
+    "category": "Veresuhkru mõõtjad",
+    "active": true
+  },
+  {
+    "id": 122326,
+    "image": "https://example.com/med-device6.jpg",
+    "name": "Haigla voodi",
+    "price": 399.99,
+    "description": "Reguleeritav haigla voodi mugavaks ja ohutuks haiglaraviks.",
+    "category": "Haigla voodid",
+    "active": true
+  },
+  {
+    "id": 122327,
+    "image": "https://example.com/med-device7.jpg",
+    "name": "Röntgenimasin",
+    "price": 999.99,
+    "description": "Digitaalne röntgenimasin meditsiiniliste piltide võtmiseks.",
+    "category": "Röntgenimasinad",
+    "active": true
+  },
+  {
+    "id": 122328,
+    "image": "https://example.com/med-device8.jpg",
+    "name": "Defibrillaator",
+    "price": 299.99,
+    "description": "Automatiseeritud defibrillaator südame seiskumiseks elustamiseks.",
+    "category": "Defibrillaatorid",
+    "active": true
+  },
+  {
+    "id": 122329,
+    "image": "https://example.com/med-device9.jpg",
+    "name": "Ultraheli seade",
+    "price": 799.99,
+    "description": "Ultraheli seade diagnostiliste uuringute läbiviimiseks.",
+    "category": "Ultraheli seadmed",
+    "active": true
+  },
+  {
+    "id": 122330,
+    "image": "https://example.com/med-device10.jpg",
+    "name": "Vereloovutusseade",
+    "price": 149.99,
+    "description": "Vereloovutusseade vere annetamiseks haiglates ja kliinikutes.",
+    "category": "Vereloovutusseadmed",
+    "active": true
+  },  {
+    "id": 122331,
+    "image": "https://example.com/med-device10.jpg",
+    "name": "Vereloovutusseade3",
+    "price": 149.99,
+    "description": "Vereloovutusseade vere annetamiseks haiglates ja kliinikutes.",
+    "category": "Vereloovutusseadmed",
+    "active": true
+  },  {
+    "id": 122332,
+    "image": "https://example.com/med-device10.jpg",
+    "name": "Vereloovutusseade2",
+    "price": 149.99,
+    "description": "Vereloovutusseade vere annetamiseks haiglates ja kliinikutes.",
+    "category": "Elektroodid",
+    "active": true
+  },  {
+    "id": 122333,
+    "image": "https://example.com/med-device10.jpg",
+    "name": "Vereloovutusseade1",
+    "price": 149.99,
+    "description": "Vereloovutusseade vere annetamiseks haiglates ja kliinikutes.",
+    "category": "Elektroodid",
+    "active": true
+  }
+]
