@@ -3,7 +3,7 @@ import styles from "../../css/Cart.module.css";
 import ParcelMachines from '../../components/cart/ParcelMachines';
 import Payment from '../../components/cart/Payment';
 import { useCartSum } from '../../store/CartSumContext';
-import Invoice from '../global/Invoice';
+import axios from 'axios';
  
 function Cart() {
   const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")) || [] );
@@ -46,16 +46,27 @@ function Cart() {
     setCartSum(calculateCartSum());
   }
   
-  const generatePDF = () => {
-    // Kutsub PDF-generaatori funktsiooni Invoice komponendis
-    Invoice.generatePDF();
-  };
+  const sendInvoice = async () => {
+    const orderDetails = {
+        items: cart,
+        email: "kliendi-email@example.com", // Lisage siia klientide e-mail
+        // Muud vajalikud andmed
+    };
+
+    try {
+        const response = await axios.post('http://localhost:5000/send-invoice', orderDetails);
+        console.log(response.data.message);
+        // Käitle edukat vastust
+    } catch (error) {
+        console.error('Error sending invoice:', error);
+        // Käitle veaolukorda
+    }
+};
 
   return (
     <div>
       {cart.length > 0 && 
       <div>
-        <button onClick={generatePDF}>Genereeri PDF</button>
         Total Sum: {calculateCartSum()}€
         <br />
         <div> Total {cart.length} Product(s)</div>
@@ -80,6 +91,7 @@ function Cart() {
           <div className={styles.total}> {(product.toode.price * product.kogus).toFixed(2)} </div>
           <img className={styles.button} src="/remove.png" alt="" onClick={() => removeFromCart(index)} />
         </div>)}
+        <button onClick={sendInvoice}>Saada Arve</button>
 
         <ParcelMachines />
 
